@@ -32,5 +32,49 @@ img {
     grid-column: 1 / 3;
 }
 
+@media only screen and (min-width: 577px) {
+    .container {
+        max-width: 1023px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+        gap: 10px;
+    }
 
+    .papillon {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .feuilles {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .cheval {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .fossile {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .corail {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .arbres {
+        grid-column: 3 / 4;
+        grid-row: 3 / 5;
+    }
+    
+    .coquillages {
+        grid-column: 1 / 4;
+        grid-row: 4 / 6;
+    }
+    
+  }
 
